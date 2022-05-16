@@ -21,15 +21,32 @@ print("tamanho do nome: ", len(nome))
 sobrenome = input("Digite seu sobrenome: ")
 print("tamanho do sobrenome: ", len(sobrenome))
 print("concatenando nome e sobrenome")
-nome_completo=nome+" "+sobrenome
-print("nome completo: ", nome_completo)
-print("tamanho do nome completo: ", len(nome_completo))
-if sobrenome in nome_completo:
-    print("O sobrenome", sobrenome, " está contido no nome completo", nome_completo)
+#somar uma string a outra - concatenar as strings
 
+nome_completo=nome+" "+sobrenome
+
+print("nome completo: ", nome_completo)
+
+print("tamanho do nome completo: ", len(nome_completo))
+
+#verificar se há alguma sequencia de caracteres dentro de uma string
+pesquisar=str(input("digite para pesquisar: "))
+if pesquisar in nome_completo:
+    print("A string: ", pesquisar, " está contido no nome completo", nome_completo)
+
+#verificação direta 
+print("há a letra a no nome_completo?")
+print("a" in nome_completo)# retorna true se houver a no nome_completo
+
+#multiplicação de strings
+nome="fernando"
+print(nome*2)
+
+'''
 print("tentando acessar alguma parte da string nome completo")
 for i in range (len(nome_completo)):
-    print("Elmento ",i," da string nome_completo é: ",nome_completo[i])
+    print("Elemento ",i," da string nome_completo é: ",nome_completo[i])
 
 for i in nome_completo:
     print(i)
+#'''
