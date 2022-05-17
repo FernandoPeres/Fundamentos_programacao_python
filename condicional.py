@@ -23,3 +23,15 @@ elif numero >=10 and numero <100:
     print("Número positivo >= 10 e <100")
 else:
     print("Número positivo >=100")
+
+# TEMOS A OPÇÃO DE UTILIZAR PASS DENTRO DE UM CONDICIONAL 
+# PASS NÃO FAZ NENHUMA ALTERAÇÃO.
+
+numero2=int(input("digite outro número: "))
+if numero2<0:
+    print("pass")
+    pass
+elif numero2 == 0:
+    print("número2 = 0")
+else:
+    print("número2 >0")
