@@ -17,7 +17,9 @@ while i<10:
     print("Aguarde", i)
 
 soma=0
+print("repetir while enquanto a soma <= 100")
 while soma<=100:
     numero=int(input("Digite um número para adicionar à soma: "))
     soma = soma + numero
     print("A soma é: ", soma)
+
