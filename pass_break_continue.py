@@ -27,6 +27,7 @@ while True:
 #Utilizando um pass
 
 for i in range(10):
-    pass# não faz nada e permite que a implementação do for seja feita posteriormente
+    pass
+# não faz nada e permite que a implementação do for seja feita posteriormente
 #permitindo que se prossiga com a codificação.
 print("foi utilizado o pass dentro de um for")
