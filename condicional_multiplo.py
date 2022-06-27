@@ -17,7 +17,7 @@ elif (opcao ==3):
     print ("A multiplicação dos dois números é: ", num1*num2)
 elif (opcao ==4):
     if(num2!=0):
-        print ("A multiplicação dos dois números é: ", num1/num2)
+        print ("A Divisão dos dois números é: ", num1/num2)
     else:
         print(num1, " não pode ser divido por ", num2)
 else:
